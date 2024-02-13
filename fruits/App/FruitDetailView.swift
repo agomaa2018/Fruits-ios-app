@@ -26,6 +26,8 @@ struct FruitDetailView: View {
                             .font(.headline)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
+                        FruitNutrientsView(fruit: fruit)
+                        
                         Text("Learn more about \(fruit.title)".uppercased())
                             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             .foregroundStyle(fruit.gradientColors[1])
@@ -42,7 +44,7 @@ struct FruitDetailView: View {
             }
                 .edgesIgnoringSafeArea(.top)
         }
-        
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

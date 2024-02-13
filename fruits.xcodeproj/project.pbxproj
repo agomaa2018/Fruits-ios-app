@@ -20,6 +20,10 @@
 		0DE532812B738AE300832519 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE532802B738AE300832519 /* OnboardingView.swift */; };
 		0DE532842B73925300832519 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE532832B73925300832519 /* FruitModel.swift */; };
 		0DE532872B7395EB00832519 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE532862B7395EB00832519 /* FruitData.swift */; };
+		0DE7CD362B7BB8F5005DFD74 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7CD352B7BB8F5005DFD74 /* FruitNutrientsView.swift */; };
+		0DE7CD382B7BDE0A005DFD74 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7CD372B7BDE09005DFD74 /* SettingsView.swift */; };
+		0DE7CD3A2B7BF3CD005DFD74 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7CD392B7BF3CD005DFD74 /* SettingsLabelView.swift */; };
+		0DE7CD3C2B7BF91D005DFD74 /* SettingsListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7CD3B2B7BF91D005DFD74 /* SettingsListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		0DE532802B738AE300832519 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		0DE532832B73925300832519 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		0DE532862B7395EB00832519 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		0DE7CD352B7BB8F5005DFD74 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		0DE7CD372B7BDE09005DFD74 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0DE7CD392B7BF3CD005DFD74 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		0DE7CD3B2B7BF91D005DFD74 /* SettingsListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 				0DC703DD2B74D6CF00874FE3 /* FruitRowView.swift */,
 				0D6504B22B7B83B5000FBC35 /* FruitDetailsHeaderView.swift */,
 				0D6504B42B7B8911000FBC35 /* SourceLinkView.swift */,
+				0DE7CD352B7BB8F5005DFD74 /* FruitNutrientsView.swift */,
+				0DE7CD392B7BF3CD005DFD74 /* SettingsLabelView.swift */,
+				0DE7CD3B2B7BF91D005DFD74 /* SettingsListRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -106,6 +117,7 @@
 				0D38C1032B6F900600DE059A /* ContentView.swift */,
 				0DE532802B738AE300832519 /* OnboardingView.swift */,
 				0D6504B02B7B7C7D000FBC35 /* FruitDetailView.swift */,
+				0DE7CD372B7BDE09005DFD74 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -200,13 +212,17 @@
 				0D6504B52B7B8911000FBC35 /* SourceLinkView.swift in Sources */,
 				0D0662752B72ADF800AB2782 /* FruitCardView.swift in Sources */,
 				0DC703DE2B74D6CF00874FE3 /* FruitRowView.swift in Sources */,
+				0DE7CD362B7BB8F5005DFD74 /* FruitNutrientsView.swift in Sources */,
 				0D0662772B72BAB100AB2782 /* StartButtonView.swift in Sources */,
 				0D6504B12B7B7C7D000FBC35 /* FruitDetailView.swift in Sources */,
 				0D38C1042B6F900600DE059A /* ContentView.swift in Sources */,
 				0DE532812B738AE300832519 /* OnboardingView.swift in Sources */,
 				0D6504B32B7B83B5000FBC35 /* FruitDetailsHeaderView.swift in Sources */,
+				0DE7CD3A2B7BF3CD005DFD74 /* SettingsLabelView.swift in Sources */,
 				0DE532842B73925300832519 /* FruitModel.swift in Sources */,
 				0D38C1022B6F900600DE059A /* fruitsApp.swift in Sources */,
+				0DE7CD3C2B7BF91D005DFD74 /* SettingsListRow.swift in Sources */,
+				0DE7CD382B7BDE0A005DFD74 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
